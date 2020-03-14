@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [UNRELEASED]
 (nothing yet)
 
+## [1.0.0] - 2020-03-14
+### Fixed
+- native EMS support with proper CommonJS fallback
+
 ## [0.0.1] - 2020-03-08
 ### Added
 - first version
