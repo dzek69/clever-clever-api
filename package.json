@@ -1,6 +1,6 @@
 {
   "name": "clever-clever-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jacek Nowacki",
   "license": "MIT",
   "scripts": {
@@ -51,7 +51,7 @@
     }
   },
   "libraryTemplate": {
-    "version": "2.0.5",
+    "version": "2.0.8",
     "fixDefaultForCommonJS": true
   }
 }
