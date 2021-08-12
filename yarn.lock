@@ -875,16 +875,16 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-api-reach@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/api-reach/-/api-reach-0.6.0.tgz#f1de7d83ef0ff70213acb75e38effd73f77c6f2c"
-  integrity sha512-05yoHqnYela26q0jRGQo/ZWY+AioCmCvlA79H+M0z2Y6Z0UxgvN0NZytg++kZvm8d7YN+OqiGmUVO5FavzQzCA==
+api-reach@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/api-reach/-/api-reach-0.7.0.tgz#9b5397d8e31cc5ec9b881aabd54074d1ff3216fc"
+  integrity sha512-v8Z5hqT+FVMwogYD6w9IHTXhyIY008Sb4t1/C+Nu8MbMlEgO70JRBBsQHaVFK2hwMvGVKhDCPmSmtGeIa+VhDA==
   dependencies:
     abort-controller "^2.0.2"
-    better-custom-error "^1.0.0"
+    better-custom-error "^3.0.1"
     isomorphic-abort-controller "^1.0.0"
     light-isomorphic-fetch "^1.0.0"
-    oop-timers "^1.0.0"
+    oop-timers "^3.0.1"
     qs "^6.6.0"
     url-join "^4.0.0"
 
@@ -983,10 +983,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-better-custom-error@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/better-custom-error/-/better-custom-error-1.0.0.tgz#5d5c8feda020c9bf3b7c5c9b9127bbe68e8d01a1"
-  integrity sha512-ZW4MelvAP0wqvI+tQk5WpXG6XwwTVO42/yiPXnRK/hTdrEgltzvSMy1el93AgdbiSwFh27E67b5hVrB43Bi0Lw==
+better-custom-error@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/better-custom-error/-/better-custom-error-3.0.1.tgz#71ac6fc0c0d5bff0f70b1a45c2ff3e2f18515e76"
+  integrity sha512-EIxbhbSp8lrEUjsa9ctQuYFjc4eLF84Acj1aZzrnMtr3ch21WQwIgNCb54VuKHBoecdIWeBFtItxAekzbDIQNw==
 
 binary-extensions@^1.0.0:
   version "1.13.1"
@@ -2804,10 +2804,10 @@ onetime@^5.1.0:
   resolved "https://registry.npmjs.org/oolong/-/oolong-1.15.1.tgz#90bac9e7ce52f60906ab2228d9e2b115f1086cea"
   integrity sha1-kLrJ585S9gkGqyIo2eKxFfEIbOo=
 
-oop-timers@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/oop-timers/-/oop-timers-1.0.0.tgz#90f06f57ddcc8baefec2632463664fe724fec722"
-  integrity sha512-0CSPNVEg4yXRhtZbjS1siIW4cEHxSs52MJAra0HC5YIkINWd7CwHW9yVbYS4fKKW4s5k6tBe4kpRi+J17cfhZA==
+oop-timers@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/oop-timers/-/oop-timers-3.0.1.tgz#ae5a8cfa29196d0755163138a3ecd859828b7bda"
+  integrity sha512-NhWxI6aHbtjAtfptFsieUTqVFTldJ3cFoKdlGnlz/2h7pE5WchB+OmLZ9a4GjCZjxqrykKHk5ua+JICbZU7DzQ==
 
 opencollective-postinstall@^2.0.2:
   version "2.0.2"
@@ -2923,9 +2923,9 @@ path-key@^3.1.0:
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^4.0.0:
   version "4.0.0"
