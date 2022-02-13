@@ -811,11 +811,11 @@ acorn@^7.1.0:
   integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
 ajv@^6.10.0, ajv@^6.10.2:
-  version "6.10.2"
-  resolved "https://registry.npmjs.org/ajv/-/ajv-6.10.2.tgz#d3cea04d6b017b2894ad69040fec8b623eb4bd52"
-  integrity sha512-TXtUUEYHuaTEbLZWIKUr5pmBuhDLy+8KYtPYdcV8qC+pOZL+NKqYwvWSRrVXHn+ZmRRAu8vJTAznH7Oag6RVRw==
+  version "6.12.6"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
+  integrity sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
   dependencies:
-    fast-deep-equal "^2.0.1"
+    fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
@@ -875,16 +875,16 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-api-reach@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/api-reach/-/api-reach-0.6.0.tgz#f1de7d83ef0ff70213acb75e38effd73f77c6f2c"
-  integrity sha512-05yoHqnYela26q0jRGQo/ZWY+AioCmCvlA79H+M0z2Y6Z0UxgvN0NZytg++kZvm8d7YN+OqiGmUVO5FavzQzCA==
+api-reach@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/api-reach/-/api-reach-0.7.0.tgz#9b5397d8e31cc5ec9b881aabd54074d1ff3216fc"
+  integrity sha512-v8Z5hqT+FVMwogYD6w9IHTXhyIY008Sb4t1/C+Nu8MbMlEgO70JRBBsQHaVFK2hwMvGVKhDCPmSmtGeIa+VhDA==
   dependencies:
     abort-controller "^2.0.2"
-    better-custom-error "^1.0.0"
+    better-custom-error "^3.0.1"
     isomorphic-abort-controller "^1.0.0"
     light-isomorphic-fetch "^1.0.0"
-    oop-timers "^1.0.0"
+    oop-timers "^3.0.1"
     qs "^6.6.0"
     url-join "^4.0.0"
 
@@ -983,10 +983,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-better-custom-error@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/better-custom-error/-/better-custom-error-1.0.0.tgz#5d5c8feda020c9bf3b7c5c9b9127bbe68e8d01a1"
-  integrity sha512-ZW4MelvAP0wqvI+tQk5WpXG6XwwTVO42/yiPXnRK/hTdrEgltzvSMy1el93AgdbiSwFh27E67b5hVrB43Bi0Lw==
+better-custom-error@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/better-custom-error/-/better-custom-error-3.0.1.tgz#71ac6fc0c0d5bff0f70b1a45c2ff3e2f18515e76"
+  integrity sha512-EIxbhbSp8lrEUjsa9ctQuYFjc4eLF84Acj1aZzrnMtr3ch21WQwIgNCb54VuKHBoecdIWeBFtItxAekzbDIQNw==
 
 binary-extensions@^1.0.0:
   version "1.13.1"
@@ -1621,15 +1621,15 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-fast-deep-equal@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
-  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+fast-deep-equal@^3.1.1:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
+  integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
 fast-json-stable-stringify@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
-  integrity sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
+  integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
 fast-levenshtein@~2.0.6:
   version "2.0.6"
@@ -2274,7 +2274,7 @@ json-parse-better-errors@^1.0.1:
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"
-  resolved "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
+  resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
   integrity sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
 
 json-stable-stringify-without-jsonify@^1.0.1:
@@ -2804,10 +2804,10 @@ onetime@^5.1.0:
   resolved "https://registry.npmjs.org/oolong/-/oolong-1.15.1.tgz#90bac9e7ce52f60906ab2228d9e2b115f1086cea"
   integrity sha1-kLrJ585S9gkGqyIo2eKxFfEIbOo=
 
-oop-timers@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/oop-timers/-/oop-timers-1.0.0.tgz#90f06f57ddcc8baefec2632463664fe724fec722"
-  integrity sha512-0CSPNVEg4yXRhtZbjS1siIW4cEHxSs52MJAra0HC5YIkINWd7CwHW9yVbYS4fKKW4s5k6tBe4kpRi+J17cfhZA==
+oop-timers@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/oop-timers/-/oop-timers-3.0.1.tgz#ae5a8cfa29196d0755163138a3ecd859828b7bda"
+  integrity sha512-NhWxI6aHbtjAtfptFsieUTqVFTldJ3cFoKdlGnlz/2h7pE5WchB+OmLZ9a4GjCZjxqrykKHk5ua+JICbZU7DzQ==
 
 opencollective-postinstall@^2.0.2:
   version "2.0.2"
@@ -2992,7 +2992,7 @@ progress@^2.0.0:
 
 punycode@^2.1.0:
   version "2.1.1"
-  resolved "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@^6.6.0:
@@ -3643,9 +3643,9 @@ upath@^1.1.1:
   integrity sha512-kXpym8nmDmlCBr7nKdIx8P2jNBa+pBpIUFRnKJ4dr8htyYGJFokkr2ZvERRtUN+9SY+JqXouNgUPtv6JQva/2Q==
 
 uri-js@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.npmjs.org/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
-  integrity sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.4.1.tgz#9b1a52595225859e55f669d928f88c6c57f2a77e"
+  integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
 
