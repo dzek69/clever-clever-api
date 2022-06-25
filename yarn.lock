@@ -875,16 +875,16 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-api-reach@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/api-reach/-/api-reach-0.6.0.tgz#f1de7d83ef0ff70213acb75e38effd73f77c6f2c"
-  integrity sha512-05yoHqnYela26q0jRGQo/ZWY+AioCmCvlA79H+M0z2Y6Z0UxgvN0NZytg++kZvm8d7YN+OqiGmUVO5FavzQzCA==
+api-reach@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/api-reach/-/api-reach-0.7.0.tgz#9b5397d8e31cc5ec9b881aabd54074d1ff3216fc"
+  integrity sha512-v8Z5hqT+FVMwogYD6w9IHTXhyIY008Sb4t1/C+Nu8MbMlEgO70JRBBsQHaVFK2hwMvGVKhDCPmSmtGeIa+VhDA==
   dependencies:
     abort-controller "^2.0.2"
-    better-custom-error "^1.0.0"
+    better-custom-error "^3.0.1"
     isomorphic-abort-controller "^1.0.0"
     light-isomorphic-fetch "^1.0.0"
-    oop-timers "^1.0.0"
+    oop-timers "^3.0.1"
     qs "^6.6.0"
     url-join "^4.0.0"
 
@@ -983,10 +983,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-better-custom-error@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/better-custom-error/-/better-custom-error-1.0.0.tgz#5d5c8feda020c9bf3b7c5c9b9127bbe68e8d01a1"
-  integrity sha512-ZW4MelvAP0wqvI+tQk5WpXG6XwwTVO42/yiPXnRK/hTdrEgltzvSMy1el93AgdbiSwFh27E67b5hVrB43Bi0Lw==
+better-custom-error@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/better-custom-error/-/better-custom-error-3.0.1.tgz#71ac6fc0c0d5bff0f70b1a45c2ff3e2f18515e76"
+  integrity sha512-EIxbhbSp8lrEUjsa9ctQuYFjc4eLF84Acj1aZzrnMtr3ch21WQwIgNCb54VuKHBoecdIWeBFtItxAekzbDIQNw==
 
 binary-extensions@^1.0.0:
   version "1.13.1"
@@ -2653,10 +2653,12 @@ node-environment-flags@1.0.5:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
 
-node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+node-fetch@^2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-modules-regexp@^1.0.0:
   version "1.0.0"
@@ -2804,10 +2806,10 @@ onetime@^5.1.0:
   resolved "https://registry.npmjs.org/oolong/-/oolong-1.15.1.tgz#90bac9e7ce52f60906ab2228d9e2b115f1086cea"
   integrity sha1-kLrJ585S9gkGqyIo2eKxFfEIbOo=
 
-oop-timers@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/oop-timers/-/oop-timers-1.0.0.tgz#90f06f57ddcc8baefec2632463664fe724fec722"
-  integrity sha512-0CSPNVEg4yXRhtZbjS1siIW4cEHxSs52MJAra0HC5YIkINWd7CwHW9yVbYS4fKKW4s5k6tBe4kpRi+J17cfhZA==
+oop-timers@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/oop-timers/-/oop-timers-3.0.1.tgz#ae5a8cfa29196d0755163138a3ecd859828b7bda"
+  integrity sha512-NhWxI6aHbtjAtfptFsieUTqVFTldJ3cFoKdlGnlz/2h7pE5WchB+OmLZ9a4GjCZjxqrykKHk5ua+JICbZU7DzQ==
 
 opencollective-postinstall@^2.0.2:
   version "2.0.2"
@@ -3559,6 +3561,11 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
 tslib@^1.9.0:
   version "1.10.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
@@ -3673,6 +3680,19 @@ v8-compile-cache@^2.0.3:
   version "2.1.0"
   resolved "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.1.0.tgz#e14de37b31a6d194f5690d67efc4e7f6fc6ab30e"
   integrity sha512-usZBT3PW+LOjM25wbqIlZwPeJV+3OSz3M1k1Ws8snlW39dZyYL9lOGC5FgPVHfk0jKmjiDV8Z0mIbVQPiwFs7g==
+
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which-module@^2.0.0:
   version "2.0.0"
